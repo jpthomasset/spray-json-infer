@@ -7,13 +7,14 @@ used in a Scala application with the [spray-json](https://github.com/spray/spray
 Usage
 -----
 From the sbt command line: run <arguments>
-        -c <classname>    Where classname is the name of the main case class (Required)
-        -f <filename>     Where filename is the name of a json file
-        -u <url>          Where url is the name of a json file
-        -s <string>       Where string is a valid json string
-        -o <objectname>   Encapsulate code in an object with the given name
-        -p <packagename>  Output code with the given package name
-        -j                Output JsonProtocol for the generated classes
+* -c <classname>    Where classname is the name of the main case class (Required)
+* -f <filename>     Where filename is the name of a json file
+* -u <url>          Where url is the name of a json file
+* -s <string>       Where string is a valid json string
+* -o <objectname>   Encapsulate code in an object with the given name
+* -p <packagename>  Output code with the given package name
+* -j                Output JsonProtocol for the generated classes
+
 INFO: Either -f, -u or -s must be specified
 
 
